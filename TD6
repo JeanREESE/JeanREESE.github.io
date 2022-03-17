@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--  <p> LE TEXTE AFFICHÉ </p> -->
+<html>
+<body>
+
+<h1>Le pont mirabeau</h1>
+
+<ul>
+  <li>Home</li>
+  <li>Services
+    <ul>
+        <li>Strategy</li>
+        <li>Optimization</li>
+    </ul>
+  </li>
+  <li>Publications
+    <ul>
+        <li>Articles</li>
+        <li>Tutorials</li>
+    </ul>
+  </li>
+  <li>Events</li>
+  <li>Contact</li>
+</ul>
+
+</body>
+</html>
+
+
+<!--  <p> LE STYLE DE LA PAGE </p> -->
+<style>
+    body
+    {
+        background-color: black;
+    }
+
+    h1{
+        list-style: none;
+
+        padding: 0px 30px;
+        width : 500px;
+        height: 100px;
+
+        font-family: arial black;
+        font-size: 50px;
+        color:white;
+        background-color: none;
+    }
+
+    li
+    {
+        list-style: none;
+
+        padding: 0px 10px;
+        width : 100px;
+        height: 25px;
+        
+        font-family: arial black;
+        color:white;
+        background-color: black;
+    }
+    
+    
+    li:hover{
+        background-color: white;
+        color:black
+    }
+
+    li ul{display :none;}
+
+    li:hover>ul{
+    display: block;
+    position : relative;
+    left: 87px;
+    top: -19px;
+    }
+    
+</style>
